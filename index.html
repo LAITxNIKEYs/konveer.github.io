@@ -8,14 +8,15 @@
   </head>
   <body>
 
-    <a-asset-item id="pan" src="mod\pol.gltf"></a-asset-item>
+    <a-asset-item id="pol" src="mod\pol.gltf"></a-asset-item>
 
     <a-scene embedded arjs>
 
         
 
         <a-marker preset="custom" type="pattern" url="pat\pattern-g.patt">
-           <a-gltf-model src="#pan"></a-gltf-model>
+            <a-gltf-model src="#pol"></a-gltf-model>
+        </a-marker>
 
         <a-marker preset="custom" type="pattern" url="pat\pattern-a.patt">
             <a-box color="red" scale="0.5 0.5 0.5"></a-box>
@@ -33,4 +34,3 @@
     </a-scene>
   </body>
 </html>
-
